@@ -16,7 +16,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed top-0 md:top-14 w-full bg-[#e2e0e0] z-50 shadow-md mt-2">
+    <div className="container fixed top-0 md:top-14 w-full bg-[#e2e0e0] z-50 shadow-md mt-2">
       <div className="max-w-[1280px] h-[72px] mx-auto flex justify-between items-center px-4 ">
         <div>
           <Image

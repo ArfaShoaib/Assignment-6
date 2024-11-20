@@ -9,14 +9,13 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
+        background: "var(--background)", // Custom CSS variables for colors
         foreground: "var(--foreground)",
       },
       fontFamily: {
-        Roboto: ["Roboto", "sans-serif"], // Custom font for sans-serif
+        roboto: ["Roboto", "sans-serif"], // Ensure lowercase naming for utility classes
       },
       screens: {
-        // Adding custom breakpoints
         xs: "480px", // Extra small screens
         sm: "640px", // Small screens
         md: "768px", // Medium screens

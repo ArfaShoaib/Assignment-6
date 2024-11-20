@@ -2,7 +2,7 @@ import React from "react";
 
 const Acheivements = () => {
   return (
-    <div className="w-full ">
+    <div className="container w-full ">
       <div className="w-[1580px] h-[488px] flex flex-col justify-center items-center mt-48">
         <h1 className="font-Roboto font-bold text-[48px] leading-[57px] text-black">
           Our Achivements

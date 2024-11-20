@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="min-h-[800px] flex flex-col md:flex-row items-center justify-center gap-8 py-12">
         {/* Left Text Content */}
         <div className="w-full md:max-w-[500px] space-y-6 text-center md:text-left md:self-center mb-10 md:mb-[300px] my-48">

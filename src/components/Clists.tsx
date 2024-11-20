@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Clists = () => {
   return (
-    <div className="w-screen overflow-x-hidden">
+    <div className="container w-screen overflow-x-hidden">
       <div className="flex flex-col">
         {/* Header Section */}
         <div className="flex flex-col justify-center items-center">

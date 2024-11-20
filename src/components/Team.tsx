@@ -51,7 +51,7 @@ const testimonials = [
 
 const Test = () => {
   return (
-    <div className="w-full bg-[#F7F7F7] py-10 mt-52">
+    <div className="container w-full bg-[#F7F7F7] py-10 mt-52">
       {/* Header Section */}
       <div className="text-center mb-10">
         <h1 className="text-2xl font-bold">Our Team</h1>
