@@ -195,10 +195,10 @@ const Testinomials = () => {
         </div>
   
         {/* Navigation Buttons */}
-        <div className="relative">
+        <div className="relative -mr-1 mt-20 sm:mr-5 ">
           <button
             onClick={Prevslide}
-            className="absolute right-[70px] sm:right-[40px] top-[50%] transform -translate-y-[50%] bg-gray-200 p-2 rounded-full shadow-md"
+            className="absolute right-[70px] sm:right-[80px] top-[50%] transform -translate-y-[50%] bg-gray-200 p-2 rounded-full shadow-md "
           >
             <RiArrowLeftSLine size={30} />
           </button>
@@ -211,11 +211,11 @@ const Testinomials = () => {
         </div>
   
         {/* Slider Dots */}
-        <div className="flex justify-center mt-20">
+        <div className="flex justify-center xs:justify-center xs:mt-20  xs:mr-[300px] sm:mr-[300px]">
           {[...Array(Math.ceil(Customer.length / 3))].map((_, index) => (
             <div
               key={index}
-              className={`h-2 w-2 rounded-full mx-1 ${
+              className={`xs:h-2 xs:w-2 rounded-full mx-1 ${
                 index === Math.floor(currentIndex / 3) ? "bg-black" : "bg-gray-400"
               }`}
             />

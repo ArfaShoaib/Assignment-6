@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <div className="container hidden sm:block border-b border-[#676767] bg-[#d9d5d5] w-full">
+    <div className="container hidden sm:hidden md:block border-b border-[#676767] bg-[#d9d5d5] w-full">
       <div className="h-[49px] flex flex-col sm:flex-row items-center justify-between mx-auto max-w-[1280px] px-4">
         {/* Left Section - Stacked on mobile, inline on larger screens */}
         <div className="flex flex-col sm:flex-row items-center gap-4 mb-2 sm:mb-0">
