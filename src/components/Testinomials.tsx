@@ -174,7 +174,7 @@ const Testinomials = () => {
               </div>
               {/* FEEDBACK */}
               <p className="text-[14px] xs:text-[16px] lg:text-[18px] leading-[22px] xs:leading-[24px] lg:leading-[27px] w-[90%] mx-auto text-justify">
-                "{Customer.feedback}"
+              &ldquo;{Customer.feedback}&rdquo;
               </p>
               {/* Image, Name, and Profession */}
               <div className="flex items-center justify-center sm:justify-start mt-5">
