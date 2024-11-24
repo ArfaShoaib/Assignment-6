@@ -27,8 +27,8 @@ const Hero = () => {
 
         {/* Right Image Content */}
         <div className="w-full flex justify-center xs:w-full sm:w-3/4 md:w-1/2 md:justify-end md:-ml-20">
-          <div className="relative w-full xs:max-w-[428px] sm:max-w-[350px] md:w-[350px] h-[250px] xs:h-[390px] sm:h-[400px] md:h-[500px] lg:h-[700px] mb-5 ">
-            <Image src="/image.png" alt="Learning illustration" fill priority />
+          <div className="relative w-full xs:max-w-[428px] sm:max-w-[350px] md:w-[350px] h-[250px] xs:h-[390px] sm:h-[400px] md:h-[500px] lg:h-[600px] lg:w-[640px] mb-5 ">
+            <Image src="/Image.png" alt="Learning illustration" fill priority className="object-contain lg:object-cover" />
           </div>
         </div>
       </div>

@@ -54,7 +54,7 @@ const Clists = () => {
               </div>
             </div>
           ))}
-          <div className="flex mt-12 justify-center md:justify-center md:ml-[400px] lg:justify-center lg:ml-0">
+          <div className="flex mt-12 justify-center md:justify-center md:ml-[400px] lg:justify-center lg:ml-[750px]">
             <button className="font-Roboto text-[16px] leading-[20px] border border-black px-5 py-2 flex items-center justify-center text-center whitespace-nowrap">
               View All Courses
             </button>

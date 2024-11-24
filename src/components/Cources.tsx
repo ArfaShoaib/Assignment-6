@@ -17,7 +17,7 @@ const Cources = () => {
         <Image src={"/Content.png"} alt="img" width={1580} height={636} />
       </div>
       <div className="flex mt-14 justify-center md:justify-center lg:justify-center sm:justify-center xl:justify-center xl:ml-[450px]">
-            <button className="font-Roboto text-[16px] leading-[24px] border border-black px-5 py-2 ">
+            <button className="font-Roboto text-[16px] leading-[24px] border border-black px-5 py-2 lg:-ml-[450px] ">
               View All Courses
             </button>
           </div>

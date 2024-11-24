@@ -41,7 +41,7 @@ const Footer = () => {
     <div className="mt-32 mb-20">
       {/* Logo */}
       <div className="mb-16 flex justify-center md:justify-start">
-        <Image src={"/Logo.png"} alt="img" width={150} height={30}/>
+        <Image src={"/logo.png"} alt="img" width={150} height={30}/>
       </div>
 
       {/* Footer Links Grid */}

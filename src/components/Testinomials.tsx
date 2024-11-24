@@ -211,7 +211,7 @@ const Testinomials = () => {
         </div>
   
         {/* Slider Dots */}
-        <div className="flex justify-center xs:justify-center xs:mt-20  xs:mr-[300px] sm:mr-[300px]">
+        <div className="flex justify-center xs:justify-center xs:mt-20  xs:mr-[300px] sm:mr-[300px] lg:mr-[1000px]">
           {[...Array(Math.ceil(Customer.length / 3))].map((_, index) => (
             <div
               key={index}
