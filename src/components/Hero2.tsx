@@ -12,7 +12,7 @@ const Hero2 = () => {
         
         <div className="w-full max-w-xl lg:ml-auto">
           <Image 
-            src="/logos.png" 
+            src="/Logos.png" 
             alt="Company Logos" 
             width={600} 
             height={100} 
